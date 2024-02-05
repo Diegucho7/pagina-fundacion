@@ -1964,6 +1964,25 @@ progress {
 .form-label {
   margin-bottom: 0.5rem;
 }
+/* .dos-columnas{
+
+} */
+@media (min-width: 168px) {
+  .dos-columnas{
+    padding-top: 3rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 2rem;
+  }
+}
+
+.img{
+  width: 35rem;
+  height: 25rem;  
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
 
 .col-form-label {
   padding-top: calc(0.375rem + 1px);
